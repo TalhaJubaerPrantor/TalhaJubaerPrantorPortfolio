@@ -159,7 +159,7 @@ export default function Home() {
                         <p>
                             A React Native app for NeoBlood.
                         </p>
-                        <a href="https://github.com/nafizul-islam-r/pocketcap">Coming Soon →</a>
+                        <a href="https://github.com/TalhaJubaerPrantor/neoblood-app">Coming Soon →</a>
                     </div>
                 </div>
             </section>
@@ -181,11 +181,11 @@ export default function Home() {
                             An online insvestment platform.
                         </p>
                         <a
-                            href="https://ed-tech-flax.vercel.app/"
+                            href="https://github.com/nafizul-islam-r/pocketcap"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Live Demo →
+                            Github Link →
                         </a>
                     </div>
                 </div>
