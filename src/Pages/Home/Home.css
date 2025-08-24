@@ -1,0 +1,192 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #1a1a1a, #000);
+  padding: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-icons a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f5f5f5;
+  color: #333;
+  font-size: 35px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  background: #0077b5; /* Default LinkedIn blue, overridden below */
+  color: #fff;
+}
+
+/* Brand Colors */
+.social-icons a:nth-child(1):hover {
+  background: #1877f2; /* Facebook */
+}
+.social-icons a:nth-child(2):hover {
+  background: #0077b5; /* LinkedIn */
+}
+.social-icons a:nth-child(3):hover {
+  background: #333; /* GitHub */
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero .highlight {
+  color: #279ced;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #279ced;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #279ced;
+}
+
+.btn.secondary {
+  background-color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: #555;
+}
+
+/* Section Styles */
+section {
+  padding: 80px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #279ced;
+}
+
+/* About */
+.about p {
+  max-width: 600px;
+  margin: auto;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.skill-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background-color: #333;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: #222;
+}
+
+.project-card a {
+  color: #279ced;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dsa-btn{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Contact */
+.contact p {
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #000;
+  color: #666;
+  font-size: 0.9rem;
+}
