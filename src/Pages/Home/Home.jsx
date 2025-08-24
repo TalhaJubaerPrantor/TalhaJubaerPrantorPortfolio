@@ -171,7 +171,7 @@ export default function Home() {
                     <div className="project-card">
                         <img
                             style={{ width: "400px" }}
-                            src="Edtech.png"
+                            src="pocketcap.jpg"
                             alt="Ed-Tech Platform"
                             className="project-img"
                         />
